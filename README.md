@@ -26,6 +26,16 @@ The application uses a custom-trained machine learning model to estimate rental 
 
 Under development as part of the **RVIR 2026/2027** university course.
 
+## Draft Documentation
+
+The following documents describe the proposed first version and are awaiting team review. They describe planned behavior, not completed implementation.
+
+- [Project design and scope](documentation/PROJECT-DESIGN.md)
+- [User scenarios](documentation/USER-SCENARIOS.md)
+- [Screen wireframes and navigation](documentation/PROTOTYPE.md)
+- [Architecture, data model, and ML plan](documentation/TECHNICAL-DESIGN.md)
+- [Development plan, responsibilities, and milestone checklist](documentation/DEVELOPMENT-PLAN.md)
+
 ## Goal
 
 Build an end-to-end machine learning system covering data collection, preprocessing, feature engineering, model training, evaluation, and deployment through a mobile application.
