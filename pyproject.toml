@@ -1,0 +1,9 @@
+[project]
+name = "roomzy"
+version = "0.1.0"
+description = "Roomzy backend and machine learning"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
