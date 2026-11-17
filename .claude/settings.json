@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Edit(CLAUDE.md)",
+      "Write(CLAUDE.md)",
+      "Edit(CONTEXT.md)",
+      "Write(CONTEXT.md)",
+      "Edit(GLOSSARY.md)",
+      "Write(GLOSSARY.md)",
+      "Edit(backend/schemas.py)",
+      "Write(backend/schemas.py)"
+    ]
+  }
+}
