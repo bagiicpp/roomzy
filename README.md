@@ -36,6 +36,28 @@ The following documents describe the proposed first version and are awaiting tea
 - [Architecture, data model, and ML plan](documentation/TECHNICAL-DESIGN.md)
 - [Development plan, responsibilities, and milestone checklist](documentation/DEVELOPMENT-PLAN.md)
 
+## Design
+
+Warm, calm and precise. **Fraunces** gives the numbers that matter (rent, suitability score) a confident editorial voice; **Geist** keeps everything else quiet and legible. Terracotta (`#B4532F`) is reserved for actions; status colours only ever describe a result.
+
+### Foundations: colour, typography, spacing
+
+![Foundations](documentation/design/foundations.png)
+
+- **Display** (score, titles): Fraunces SemiBold, 26-56 px.
+- **Heading, body, label, numeric**: Geist, 11-22 px.
+- Tokens map 1:1 to Tailwind / NativeWind and follow React Native Reusables (shadcn) naming.
+
+### Core components
+
+![Core components](documentation/design/components.png)
+
+### Prototype screens
+
+| Home | Result | Compare |
+| --- | --- | --- |
+| ![Home](documentation/design/screen-home.png) | ![Result](documentation/design/screen-result.png) | ![Compare](documentation/design/screen-compare.png) |
+
 ## Goal
 
 Build an end-to-end machine learning system covering data collection, preprocessing, feature engineering, model training, evaluation, and deployment through a mobile application.
