@@ -34,6 +34,7 @@ The following documents describe the proposed first version and are awaiting tea
 - [User scenarios](documentation/USER-SCENARIOS.md)
 - [Screen wireframes and navigation](documentation/PROTOTYPE.md)
 - [Architecture, data model, and ML plan](documentation/TECHNICAL-DESIGN.md)
+- [Entity-relationship model](documentation/ER-MODEL.md)
 - [Development plan, responsibilities, and milestone checklist](documentation/DEVELOPMENT-PLAN.md)
 
 ## Design
