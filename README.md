@@ -59,6 +59,16 @@ Warm, calm and precise. **Fraunces** gives the numbers that matter (rent, suitab
 | --- | --- | --- |
 | ![Home](documentation/design/screen-home.png) | ![Result](documentation/design/screen-result.png) | ![Compare](documentation/design/screen-compare.png) |
 
+## Backend
+
+Requires [uv](https://docs.astral.sh/uv/). From the repository root:
+
+```bash
+uv sync                                    # install dependencies
+uv run uvicorn backend.main:app --reload   # serve the API at http://127.0.0.1:8000 (check /health)
+uv run pytest                              # run the tests
+```
+
 ## Goal
 
 Build an end-to-end machine learning system covering data collection, preprocessing, feature engineering, model training, evaluation, and deployment through a mobile application.
